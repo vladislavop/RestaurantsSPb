@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="300dp"
+    android:layout_height="250dp">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="40dp"
+        android:orientation="horizontal"
+        android:background="@color/com_facebook_button_background_color_pressed">
+        <TextView
+            android:text="Facebook"
+            android:textSize="18sp"
+            android:fontFamily="sans-serif"
+            android:textColor="@color/white"
+            android:layout_width="0dp"
+            android:layout_weight="9"
+            android:layout_height="match_parent"
+            android:gravity="center"/>
+    </LinearLayout>
+    <ImageButton
+        android:layout_width="280dp"
+        android:layout_height="60dp" />
+</LinearLayout>

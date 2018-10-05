@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="175dp"
+    android:layout_margin="1dp"
+    app:cardBackgroundColor="@color/cardBackgroundColor"
+    app:cardCornerRadius="0dp"
+    app:cardMaxElevation="1dp"
+    app:cardElevation="1dp"
+    app:contentPadding="0dp"
+    app:contentPaddingBottom="0dp"
+    app:cardPreventCornerOverlap="true"
+    app:cardUseCompatPadding="true"
+    android:id="@+id/cardView">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <RatingBar
+            android:id="@+id/rate"
+            android:numStars="5"
+            android:layout_width="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_height="wrap_content"
+            android:theme="@style/RatingBarFeed"
+            style="?android:attr/ratingBarStyle"/>
+        <ImageView
+            android:id="@+id/stroke"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_gravity="center"
+            android:background="@color/black_alfa60"
+            android:layout_below="@id/title"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1"
+            android:orientation="horizontal">
+            <TextView
+                android:id="@+id/middle_rate"
+                android:gravity="center"
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:text="Abs"
+                android:textColor="@color/grey"
+                android:textSize="70sp"/>
+            <LinearLayout
+                android:layout_width="0dp"
+                android:layout_weight="2"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp">
+                    <RatingBar
+                        android:id="@+id/five_rate"
+                        android:numStars="5"
+                        android:rating="5"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/RatingMiniBar"
+                        style="?android:attr/ratingBarStyleSmall"/>
+                    <TextView
+                        android:layout_toRightOf="@id/five_rate"
+                        android:id="@+id/five_count"
+                        android:paddingLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey" />
+
+                </RelativeLayout>
+
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp">
+                    <RatingBar
+                        android:id="@+id/four_rate"
+                        android:numStars="5"
+                        android:rating="4"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/RatingMiniBar"
+                        style="?android:attr/ratingBarStyleSmall"/>
+                    <TextView
+                        android:layout_toRightOf="@id/four_rate"
+                        android:id="@+id/four_count"
+                        android:paddingLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp">
+                    <RatingBar
+                        android:id="@+id/three_rate"
+                        android:numStars="5"
+                        android:rating="3"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/RatingMiniBar"
+                        style="?android:attr/ratingBarStyleSmall"/>
+                    <TextView
+                        android:layout_toRightOf="@id/three_rate"
+                        android:id="@+id/three_count"
+                        android:paddingLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey" />
+
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="0dp"
+                    android:layout_weight="1"
+                    android:paddingLeft="20dp">
+                    <RatingBar
+                        android:id="@+id/two_rate"
+                        android:numStars="5"
+                        android:rating="2"
+                        android:layout_width="wrap_content"
+                        android:layout_centerVertical="true"
+                        android:clickable="false"
+                        android:layout_height="wrap_content"
+                        android:theme="@style/RatingMiniBar"
+                        style="?android:attr/ratingBarStyleSmall"/>
+                    <TextView
+                        android:layout_toRightOf="@id/two_rate"
+                        android:id="@+id/two_count"
+                        android:paddingLeft="10dp"
+                        android:layout_centerVertical="true"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="@color/grey" />
+                </RelativeLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

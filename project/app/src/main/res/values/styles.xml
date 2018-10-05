@@ -1,0 +1,146 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="MyTheme" parent="Theme.AppCompat.NoActionBar">
+        <!--We will be using the toolbar so no need to show ActionBar-->
+
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item> <!--Цвет бэкграунда в тул баре-->
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item> <!--Цвет бэкграунда в статус баре-->
+        <item name="colorAccent">@color/colorAccent</item> <!--Цвет текста-->
+        <item name="android:colorBackground">@color/colorAccent</item>
+
+        <item name="actionOverflowMenuStyle">@style/MyOptionsMenu</item>
+        <item name="android:actionOverflowMenuStyle">@style/MyOptionsMenu</item>
+
+        <item name="actionBarPopupTheme">@style/HardwareOptionMenu</item>
+
+        <item name="android:listViewStyle">@style/MyListView</item>
+
+    </style>
+
+    <style name="MyActionBar" parent="MyTheme">
+        <!--<item name="android:windowActionBar">false</item>-->
+        <!--<item name="windowNoTitle">true</item>-->
+        <item name="android:displayOptions">showHome|useLogo</item>
+        <item name="android:actionMenuTextColor">@color/colorAccent</item> <!--Цвет текста меню которое alway show in action bar-->
+        <item name="actionMenuTextColor">@color/colorAccent</item> <!--Цвет текста меню которое alway show in action bar-->
+
+        <item name="android:textColor">@color/colorAccent</item> <!--Цвет текста в меню трех кружков если он не установлен то будет цвет заголовка-->
+        <item name="android:textColorPrimary">@color/colorAccent</item> <!--Цвет заголовка и текста в меню трех кружков-->
+        <item name="android:textColorSecondary">@color/colorAccent</item> <!--Цвет кружков меню и текста в меню в хард кнопке -->
+    </style>
+
+    <style name="MyListView" parent="Widget.AppCompat.ListView">
+        <item name="android:background">@color/white</item>
+        <item name="android:textColor">@color/black</item>
+        <item name="android:divider">@android:color/transparent</item>
+        <item name="android:dividerHeight">0dp</item>
+    </style>
+
+    <style name="MyOptionsMenu" parent="Widget.AppCompat.PopupMenu.Overflow">
+        <item name="android:popupBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="HardwareOptionMenu" parent="ThemeOverlay.AppCompat">
+        <item name="android:textColorSecondary">@color/colorAccent</item>
+        <item name="android:colorBackground">@color/colorPrimary</item>
+    </style>
+
+    <style name="UiKit">
+
+    </style>
+
+    <style name="UiKit.TextView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="UiKit.TextView.Headers">
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingTop">20dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="UiKit.TextView.HeadersWithSubheaders">
+        <item name="android:textSize">24dp</item>
+        <item name="android:paddingTop">20dp</item>
+    </style>
+
+    <style name="UiKit.TextView.HeadersWithSubheadersSmall">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingTop">20dp</item>
+    </style>
+
+    <style name="UiKit.TextView.SubheadersWithHeaders">
+        <item name="android:textSize">16dp</item>
+        <item name="android:paddingBottom">20dp</item>
+    </style>
+
+    <style name="UiKit.TextView.HeaderOfField">
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingTop">24dp</item>
+        <item name="android:paddingBottom">12dp</item>
+    </style>
+
+    <style name="UiKit.TextView.Subheader">
+        <item name="android:textSize">14dp</item>
+        <item name="android:paddingTop">19dp</item>
+        <item name="android:paddingBottom">19dp</item>
+        <item name="android:fontFamily">sans-serif-medium</item>
+    </style>
+
+    <style name="UiKit.TextView.HeaderWithFloatingLabel">
+        <item name="android:textSize">18dp</item>
+        <item name="android:paddingBottom">18dp</item>
+        <item name="android:textColor">@color/grey</item>
+    </style>
+
+    <style name="UiKit.TextView.FloatingLabel">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/grey_middle</item>
+    </style>
+
+    <style name="UiKit.TextView.DialogText">
+        <item name="android:textSize">14dp</item>
+        <item name="android:textColor">@color/grey_middle</item>
+    </style>
+
+    <style name="UiKit.RadioButton">
+        <item name="android:textSize">16dp</item>
+        <item name="android:textColor">@color/grey_middle</item>
+    </style>
+
+    <style name="UiKit.Button">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:minWidth">64dp</item>
+        <item name="android:layout_margin">8dp</item>
+        <item name="android:padding">8dp</item>
+    </style>
+
+    <style name="CircularProgress" parent="Theme.AppCompat.Light">
+        <item name="colorAccent">@android:color/holo_orange_dark</item>
+    </style>
+
+
+    <style name="PrimaryFlatButton" parent="Theme.AppCompat.Light">
+        <item name="android:buttonStyle">
+            @style/Widget.AppCompat.Button.Borderless.Colored
+        </item>
+        <item name="colorAccent">#FFAB40</item>
+    </style>
+
+    <style name="RatingBarFeed" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/ratingBarStarColor</item>
+    </style>
+
+    <style name="RatingMiniBar" parent="Theme.AppCompat">
+        <item name="colorControlNormal">@color/grey</item>
+        <item name="colorControlActivated">@color/ratingBarSmallColor</item>
+    </style>
+
+
+</resources>

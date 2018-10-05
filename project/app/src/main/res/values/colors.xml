@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">@color/grey_mid</color>
+    <color name="colorPrimaryDark">@color/grey_dark</color>
+    <color name="colorAccent">@color/grey_font</color>
+
+    <!-- Design colors -->
+    <color name="grey_dark">#0a0909</color>
+    <color name="grey_mid">#1d1c1c</color>
+    <color name="grey_font">#dadada</color>
+    <color name="purple_lightness">#fcb8fd</color>
+    <color name="purple_light_alfa30">#9ffe89ff</color>
+    <color name="purple_light_alfa60">#4afe89ff</color>
+
+    <color name="grey">#aba4a4</color>
+    <color name="grey_middle">#d9d3d3</color>
+    <color name="grey_light">#e9e4e4</color>
+
+    <color name="white">#ffffff</color>
+    <color name="black">#000000</color>
+    <color name="black_alfa30">#9f000000</color>
+    <color name="black_alfa60">#4a000000</color>
+
+
+    <color name="fontColor">#000000</color>
+    <color name="backgroundRatingBar">#232323</color>
+    <color name="markerCommentColor">#434343</color>
+    <color name="textMarkerColor">#2b2b2b</color>
+    <color name="ratingBarStarColor">#fc9657</color>
+    <color name="ratingBarSmallColor">#6b6868</color>
+    <color name="backgroundlogin">#d6d5d4</color>
+    <color name="loginDeleteLineColor">#212121</color>
+    <color name="hintFontColor">#404040</color>
+    <color name="cardBackgroundColor">#fffcfc</color>
+
+
+
+    <color name="header_facebook">#1f4a83</color>
+
+    <color name="transparent"></color>
+</resources>

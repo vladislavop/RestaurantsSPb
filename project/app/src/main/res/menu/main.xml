@@ -1,0 +1,21 @@
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+    <item android:id="@+id/action_about"
+        android:title="About the application"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/default_menu_item"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/Language"
+        android:title="Русский"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/default_menu_item"
+        app:showAsAction="never"
+        />
+    <item android:id="@+id/owners"
+        android:title="For owners"
+        android:orderInCategory="100"
+        android:actionLayout="@layout/default_menu_item"
+        app:showAsAction="never"
+        />
+</menu>

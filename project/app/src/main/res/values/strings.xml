@@ -1,0 +1,59 @@
+<resources>
+    <string name="app_name">Restaurants spb</string>
+
+    <!--Navigation Drawer Menu Items-->
+    <string-array name="navigation_menu_items">
+        <item>Войти</item>
+        <item>О приложении</item>
+    </string-array>
+
+    <!-- RATE -->
+    <string name="rate_text">Пожалуйста, оцените наше приложение в Google Play!</string>
+    <string name="rate_now">Оценить</string>
+    <string name="rate_stop">Больше не напоминать</string>
+    <string name="rate_later">Напомнить позже</string>
+
+    <!--ACTION BAR TITLES -->
+    <string name="app">Мастера и модели</string>
+
+    <!--BUTTON TEXT-->
+    <string name="enter">Войти</string>
+    <string name="signup">Зарегистрироваться</string>
+    <string name="restore_b">Восстановить</string>
+
+    <!--SNAKE BAR MESSAGES -->
+    <string name="save">Сохранено</string>
+
+    <!-- ALL -->
+    <string name="empty"></string>
+
+    <!-- Main menu -->
+    <string name="welcome">Добро пожаловать в</string>
+    <string name="project">Restaurants.spb</string>
+    <string name="please_login">Пожалуйста авторизуйтесь чтобы использовать все возможности приложения</string>
+
+    <!--RESTORE ACTIVITY-->
+
+    <!--CARD DATA-->
+    <string name="Russian_kitchen">Russian cuisine is a collection of the different cooking traditions of
+        the Russian people. The cuisine is diverse, with Northern and Eastern European, Caucasian, Central Asian,
+        Siberian, and East Asian influences. Russian cuisine derives its varied character from the vast and
+        multi-ethnic expanse of Russia.</string>
+    <string name="European_kitchen">or alternatively Western cuisine, is a generalised term collectively
+        referring to the cuisines of Europe and other Western countries,
+        including (depending on the definition) that of Russia,
+        as well as non-indigenous cuisines of Australasia, the Americas, Southern Africa, and Oceania,
+        which derive substantial influence from European settlers in those regions. </string>
+    <string name="Japanese_kitchen">"The Japanese kitchen (Japanese: 台所, translit. Daidokoro, lit. 'kitchen')is the place where food is prepared in a Japanese house."</string>
+
+    <string name="facebook_app_id">365483120601627</string>
+    <string name="facebook_login_protocol_scheme">fb365483120601627</string>
+
+
+    <string name="registration_title">Registration</string>
+    <string name="update_title">Change personal data</string>
+
+
+    <integer name="com_vk_sdk_AppId">6438938</integer>
+
+</resources>
